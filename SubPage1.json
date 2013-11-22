@@ -1,0 +1,12 @@
+{
+	"StringsTable" : "SubPage1",
+	"PreferenceSpecifiers" : [
+	    {
+	        "Type": "PSTextFieldSpecifier",
+	        "Key": "textfield_key",
+	        "Title": "Text field",
+	        "DefaultValue": "Enter something"
+
+	    }
+	]
+}

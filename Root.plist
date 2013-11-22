@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>StringsTable</key>
+    <string>Root</string>
+    <key>PreferenceSpecifiers</key>
+    <array>
+        <dict>
+            <key>Type</key>
+            <string>PSChildPaneSpecifier</string>
+            <key>File</key>
+            <string>SubPage1</string>
+            <key>Title</key>
+            <string>Child jonge</string>
+        </dict>
+        <dict>
+            <key>DisplaySortedByTitle</key>
+            <true/>
+            <key>Title</key>
+            <string>Multi yoyo</string>
+            <key>ShortTitles</key>
+            <array>
+                <string>A</string>
+                <string>N</string>
+                <string>M</string>
+                <string>W</string>
+            </array>
+            <key>DefaultValue</key>
+            <string>aap_val</string>
+            <key>Titles</key>
+            <array>
+                <string>Aap</string>
+                <string>Noot</string>
+                <string>Mies</string>
+                <string>Wim</string>
+            </array>
+            <key>Values</key>
+            <array>
+                <string>aap_val</string>
+                <string>noot_val</string>
+                <string>mies_val</string>
+                <string>wim_val</string>
+            </array>
+            <key>Key</key>
+            <string>multi_key</string>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+        </dict>
+        <dict>
+            <key>Title</key>
+            <string>ToggleTitle</string>
+            <key>FalseValue</key>
+            <string>Niet waar</string>
+            <key>TrueValue</key>
+            <string>Waar</string>
+            <key>Key</key>
+            <string>toggle_pref_key</string>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>DefaultValue</key>
+            <string>Waar</string>
+        </dict>
+        <dict>
+            <key>DefaultValue</key>
+            <string>deftietel</string>
+            <key>Type</key>
+            <string>PSTitleValueSpecifier</string>
+            <key>Key</key>
+            <string>tietelkey</string>
+            <key>Title</key>
+            <string>Tieteltietel</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+            <key>Title</key>
+            <string>grouptietel</string>
+        </dict>
+            <dict>
+                <key>MaximumValue</key>
+                <real>100</real>
+                <key>DefaultValue</key>
+                <real>50</real>
+                <key>MinimumValue</key>
+                <real>0</real>
+                <key>Type</key>
+                <string>PSSliderSpecifier</string>
+                <key>Key</key>
+                <string>slider_key</string>
+            </dict>
+            <dict>
+                <key>FooterText</key>
+                <string>Voetjes</string>
+                <key>Title</key>
+                <string>radio gaga</string>
+                <key>DefaultValue</key>
+                <string>radio_val_3</string>
+                <key>Titles</key>
+                <array>
+                    <string>Radio Classic</string>
+                    <string>Herrie FM</string>
+                    <string>Zwets on the air</string>
+                    <string>Plz kill me</string>
+                </array>
+                <key>Values</key>
+                <array>
+                    <string>radio_val_1</string>
+                    <string>radio_val_2</string>
+                    <string>radio_val_3</string>
+                    <string>radio_val_4</string>
+                </array>
+                <key>Key</key>
+                <string>radio_key</string>
+                <key>Type</key>
+                <string>PSRadioGroupSpecifier</string>
+            </dict>
+    </array>
+</dict>
+</plist>

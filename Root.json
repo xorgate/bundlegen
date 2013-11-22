@@ -1,0 +1,116 @@
+{
+	"StringsTable" : "Root",
+	"PreferenceSpecifiers" : [
+	    {
+	        "Type": "PSChildPaneSpecifier",
+	        "Title": "Childpane down here",
+	        "File": "SubPage1"
+	    },
+
+	    {
+	        "Type": "PSMultiValueSpecifier",
+	        "Title": "MultiValue",
+	        "Key": "multi_key",
+	        "DefaultValue": "multi1",
+	        "Values": {
+	            "datatype": "string",
+	            "items": [
+                    "multi1",
+                    "multi2",
+                    "multi3",
+                    "multi4"
+                ]
+            },
+	        "Titles": {
+	            "datatype": "string",
+	            "items": [
+                    "Firelink Shrine",
+                    "Blighttown",
+                    "Darkroot Garden",
+                    "New Londo Ruins"
+                ]
+            },
+            "ShortTitles": {
+                "datatype": "string",
+                "items": [
+                    "Firelink",
+                    "Blighttown",
+                    "Darkroot",
+                    "New Londo"
+                ]
+            },
+            "DisplaySortedByTitle": true
+	    },
+		{
+			"Type" : "PSToggleSwitchSpecifier",
+
+			"Title" : "Toggle",
+			"Key" : "toggle_pref_key",
+			"DefaultValue" : "Hollow",
+			"TrueValue" : "Human",
+			"FalseValue" : "Hollow"
+		},
+		{
+            "Type": "PSTitleValueSpecifier",
+            "Title": "Title",
+            "Key": "titelkey",
+            "DefaultValue": "b_ornstein_smough",
+            "Values": {
+                "datatype": "string",
+                "items": [
+                    "b_nito",
+                    "b_sif",
+                    "b_ornstein_smough"
+                ]
+            },
+            "Titles": {
+                "datatype": "string",
+                "items": [
+                    "Nito",
+                    "Sif",
+                    "Ornstein &amp; Smough"
+                ]
+            }
+		},
+		{
+		    "Type": "PSGroupSpecifier",
+		    "Title": "This is a group title",
+		    "FooterText": "Group footer",
+		    "subitems": [
+                {
+                    "Type": "PSSliderSpecifier",
+                    "Key": "slider_key",
+                    "DefaultValue": 50,
+                    "MinimumValue": 0,
+                    "MaximumValue": 100
+                },
+                {
+                    "Type": "PSRadioGroupSpecifier",
+                    "Title": "Radiogroup",
+                    "FooterText": "Radio Footer",
+                    "Key": "radio_key",
+                    "DefaultValue": "radio_val_3",
+                    "Values" : {
+                        "datatype": "string",
+                        "items": [
+                            "radio_val_1",
+                            "radio_val_2",
+                            "radio_val_3",
+                            "radio_val_4"
+                        ]
+                    },
+                    "Titles": {
+                        "datatype": "string",
+                        "items": [
+                            "Iron Leggings",
+                            "Hollow Soldier Waistcloth",
+                            "Maiden Skirt",
+                            "Brigand Trousers"
+                        ]
+                    }
+                }
+
+		    ]
+		}
+	]
+}
