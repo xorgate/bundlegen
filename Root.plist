@@ -12,35 +12,35 @@
             <key>File</key>
             <string>SubPage1</string>
             <key>Title</key>
-            <string>Child jonge</string>
+            <string>Childpane down here</string>
         </dict>
         <dict>
             <key>DisplaySortedByTitle</key>
             <true/>
             <key>Title</key>
-            <string>Multi yoyo</string>
+            <string>MultiValue</string>
             <key>ShortTitles</key>
             <array>
-                <string>A</string>
-                <string>N</string>
-                <string>M</string>
-                <string>W</string>
+                <string>Firelink</string>
+                <string>Blighttown</string>
+                <string>Darkroot</string>
+                <string>New Londo</string>
             </array>
             <key>DefaultValue</key>
-            <string>aap_val</string>
+            <string>multi1</string>
             <key>Titles</key>
             <array>
-                <string>Aap</string>
-                <string>Noot</string>
-                <string>Mies</string>
-                <string>Wim</string>
+                <string>Firelink Shrine</string>
+                <string>Blighttown</string>
+                <string>Darkroot Garden</string>
+                <string>New Londo Ruins</string>
             </array>
             <key>Values</key>
             <array>
-                <string>aap_val</string>
-                <string>noot_val</string>
-                <string>mies_val</string>
-                <string>wim_val</string>
+                <string>multi1</string>
+                <string>multi2</string>
+                <string>multi3</string>
+                <string>multi4</string>
             </array>
             <key>Key</key>
             <string>multi_key</string>
@@ -49,33 +49,47 @@
         </dict>
         <dict>
             <key>Title</key>
-            <string>ToggleTitle</string>
+            <string>Toggle</string>
             <key>FalseValue</key>
-            <string>Niet waar</string>
+            <string>Hollow</string>
             <key>TrueValue</key>
-            <string>Waar</string>
+            <string>Human</string>
             <key>Key</key>
             <string>toggle_pref_key</string>
             <key>Type</key>
             <string>PSToggleSwitchSpecifier</string>
             <key>DefaultValue</key>
-            <string>Waar</string>
+            <string>Hollow</string>
         </dict>
         <dict>
+            <key>Title</key>
+            <string>Title</string>
             <key>DefaultValue</key>
-            <string>deftietel</string>
+            <string>b_ornstein_smough</string>
+            <key>Titles</key>
+            <array>
+                <string>Nito</string>
+                <string>Sif</string>
+                <string>Ornstein &amp; Smough</string>
+            </array>
+            <key>Values</key>
+            <array>
+                <string>b_nito</string>
+                <string>b_sif</string>
+                <string>b_ornstein_smough</string>
+            </array>
+            <key>Key</key>
+            <string>titelkey</string>
             <key>Type</key>
             <string>PSTitleValueSpecifier</string>
-            <key>Key</key>
-            <string>tietelkey</string>
-            <key>Title</key>
-            <string>Tieteltietel</string>
         </dict>
         <dict>
             <key>Type</key>
             <string>PSGroupSpecifier</string>
+            <key>FooterText</key>
+            <string>Group footer</string>
             <key>Title</key>
-            <string>grouptietel</string>
+            <string>This is a group title</string>
         </dict>
             <dict>
                 <key>MaximumValue</key>
@@ -91,17 +105,17 @@
             </dict>
             <dict>
                 <key>FooterText</key>
-                <string>Voetjes</string>
+                <string>Radio Footer</string>
                 <key>Title</key>
-                <string>radio gaga</string>
+                <string>Radiogroup</string>
                 <key>DefaultValue</key>
                 <string>radio_val_3</string>
                 <key>Titles</key>
                 <array>
-                    <string>Radio Classic</string>
-                    <string>Herrie FM</string>
-                    <string>Zwets on the air</string>
-                    <string>Plz kill me</string>
+                    <string>Iron Leggings</string>
+                    <string>Hollow Soldier Waistcloth</string>
+                    <string>Maiden Skirt</string>
+                    <string>Brigand Trousers</string>
                 </array>
                 <key>Values</key>
                 <array>
